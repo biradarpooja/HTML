@@ -1,0 +1,38 @@
+/*1)Text & Fonts
+Create a paragarph in webpage & do Folowing Changes:
+Setting the text color
+•Alignment of text
+•Indentation of text
+•Decoration of text
+•Sets the spacing between characters
+•Text wrapping inside an element
+•Vertical alignment of an image inside text & Sets the font of a text
+•Sets the size of the font
+•Sets the style of the font
+•Sets the variant of the font
+•Sets the boldness of the font
+•Setting the all font properties in a single declaration - The font shorthand property*/
+p{
+	color: blue;
+	background: gray;
+	align-content: center;
+	text-decoration: underline;
+	letter-spacing: normal;
+	text-wrap: wrap;
+	size font: icon;
+	style font: italic;
+	font: bold;
+	font-size-adjust: ;
+
+}
+body{
+	/*background-image: url("img7.jpeg");*/
+	background-color: gray;
+}
+p1{
+	color: gray;
+	background-color: papayawhip;
+	padding: 2px;
+
+}
+

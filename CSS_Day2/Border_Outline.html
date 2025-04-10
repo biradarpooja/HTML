@@ -1,0 +1,54 @@
+<!--•3)CSS Border and Outlines
+•Draw border around element
+•Draw border on the individual sides of an element
+•Setting different styles for the borders
+•Setting the all border properties at once - The border shorthand property
+•Creating the rounded corners around an element
+•Using images for creating borders-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Border and outline</title>
+	<style type="text/css">
+		div{
+			border: 5px red solid;
+		}
+		.p1{
+			border-left:10px blue solid;
+			border-right: 10px pink solid;
+			border-top: 10px violet dotted;
+			border-bottom: 10px green dotted;
+		}
+		.p2{
+			border-style: double;
+			background-color: yellowgreen;
+		}
+		.p2{
+			border: 10px solid transparent;
+			padding: 20px;
+			border-image: url(images.jpg) 70 round;
+			background-repeat: repeat;
+		}
+		img{
+			border: 10px yellowgreen solid;
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		•3)CSS Border and Outlines
+•Draw border around element
+•Draw border on the individual sides of an element
+•Setting different styles for the borders
+•Setting the all border properties at once - The border shorthand property
+•Creating the rounded corners around an element
+•Using images for creating borders
+	</div>
+	<p class="p1">this is paragraph</p>
+	<p class="p2">this is paragraph 2</p>
+	<p class="p3">this is paragraph 3</p>
+	<img src="images.jpg">
+
+</body>
+</html>

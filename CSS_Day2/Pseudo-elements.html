@@ -1,0 +1,54 @@
+<!--6)CSS Pseudo-elements
+•Creating the drop cap effect using the ::first-letter pseudo-element
+•Styling the first line of a text differently using the ::first-line pseudo-element
+•Insert some content before and/or after an element using the ::before and/or ::after pseudoelement
+•Using pseudo-elements with classes-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Psedo Element</title>
+	<style type="text/css">
+		p::first-letter{
+			background-color: yellowgreen;
+			font-family: arial;
+			font-size: 20px;
+		}
+
+		p::first-line{
+			background-color: violet;
+		}
+		h1::before{
+			content: url(images.jpg);
+		}
+		h1::after{
+			content: url(images.jpg);
+		}
+		a:hover{
+			background-color: yellowgreen;
+		}
+		a:active{
+	      color: pink;
+		}
+		a:link{
+			color: black;
+		}
+		a:visited{
+			color: blueviolet;
+		}
+
+	</style>
+</head>
+<body>
+	<p>First letter Psedocode <br>Element
+	fgyuer
+ssdgvwr</p>
+	<p>second line</p>
+	<p>Third line</p>
+	<h1>before after image</h1>
+	<a href="https:\\nsc.com">click</a>
+
+
+</body>
+</html>

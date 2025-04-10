@@ -1,0 +1,60 @@
+<!--8)Create a Simple Drop Down List for Different Links. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DropDown</title>
+	<style>
+		.dropbtn{
+			background-color: yellowgreen;
+			color: black;
+			padding: 2px;
+			font-size: 50px;
+			border: none;
+			cursor: pointer;
+		}
+		.dropdown{
+			position: relative;
+			display: block;
+
+		}
+		.dropdown-content{
+			display: none;
+			position: absolute;
+			background-color: violet;
+			min-width: 20px;
+			z-index: -1;
+		}
+		.dropdown-content a{
+			color: black;
+			padding: 30px;
+			text-decoration: none;
+			display:block;	
+				}
+		.dropdown-content  a:hover{
+			background-color: yellowgreen;
+			width: 180px;
+			height: 50px;
+
+		}
+		.dropdown:hover .dropdown-content{
+			display: block;
+		}
+		.dropdown:hover .dropbtn{
+			background-color: blue;
+			
+		}
+	</style>
+</head>
+<body>
+<h1>dropdown</h1>
+<p>move the mouse over the button to open the dropdown menu</p>
+<div class="dropdown">
+	<button class="dropbtn">dropdown</button>
+	<div class="dropdown-content">
+		<a href="MarginPadding.html">MarginPadding file</a>
+			<a href="positioning.html">Positional file</a>
+				<a href="Border_Outline.html">Border And Outline</a>
+	</div>
+</div>
+</body>
+</html>

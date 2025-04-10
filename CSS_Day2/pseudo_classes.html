@@ -1,0 +1,57 @@
+<!--)CSS Pseudo-classes
+•Setting styles for different states of hyperlinks
+•Setting styles for form element in focus using the :focus pseudo-class
+•Setting the styles for first child of an element using the :first-child pseudo-class
+•Setting styles for last child of an element using the :first-child pseudo-class
+•Setting styles for nth-child of an element using the :nth-child pseudo-class
+•Setting styles for specific language using the :lang() pseudo-class
+•Using pseudo-classes with selectors-->
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	p:first-child{
+		color: hotpink;
+		font-family: arial;
+	}
+	p:nth-child(2){
+		color: blue;
+		font-family:arial;
+		font-size: 20px;
+		
+	}
+	input:focus {
+  border: 2px solid blue;
+  background-color: yellowgreen;
+}
+	li:last-child {
+  color: green;
+  font-style: italic;
+}
+  ul li a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+ul li a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+</style>
+	<title>CSS Pseudo-Classes</title>
+</head>
+<body>
+	<p>India, a nation steeped in rich cultural diversity and ancient history, is a vibrant tapestry woven from countless traditions, languages, and religions, making it a truly unique and captivating country. </p>
+	<p>The United States of America, a federal republic of 50 states, is a large and diverse nation renowned for its economic power, cultural influence, and vast landscapes, spanning from the Pacific to the Atlantic Ocean</p>
+<a href="www.google.com">click here</a>
+<input>hello</input>
+<ul>
+  <li>First Item</li>
+  <li>Second Item</li>
+  <li>Last Item</li>
+</ul>
+<ul>
+  <li><a href="https://www.google.com">Link 1</a></li>
+  <li><a href="#">Link 2</a></li>
+</ul>
+</body>
+</html>

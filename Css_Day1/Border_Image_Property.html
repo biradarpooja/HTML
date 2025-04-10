@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border_image_property</title>
+	<style type="text/css">
+		#borderimg {
+ border: 20px solid transparent;
+ padding: 15px;
+border-image: url(2.png) 30% round;
+}
+h1
+{
+text-shadow: 2px 2px red;
+}
+div
+{
+width: 300px;
+ height: 100px;
+ padding: 15px;
+ background-color: yellow;
+ box-shadow: 10px 10px grey;
+} 
+	</style>
+</head>
+<body>
+<h1 class=h1>The border-image Property</h1>
+<p>Here,the middle sections of the image are repeated to create the border:</p>
+
+<p id="borderimg">border-image:url(b1,jpg)30 round</p>
+<p> Here is the original image:</p>
+<picture>
+<img src="2.png"></picture><br>
+
+<b>Note:</b>internet Explore 10,and earlier version,do not support the border0-image property.
+<div>This is example of Box shadow!!</div>
+</body>
+</html>

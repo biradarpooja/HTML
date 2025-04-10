@@ -1,0 +1,65 @@
+<!--1)CSS Positioning
+• Position an element relative to the browser window
+• Position an element relative to its parent element--><!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Positionig</title>
+	<style type="text/css">
+		body{
+			margin: 10px;
+			padding: 20px;
+			height: 200cm;
+		}
+		div{
+			height: 5cm;
+			width: 10cm;
+			text-align: center;
+			font-size: 40px;
+			padding: 20px;
+		}
+		.one{
+			background-color: yellowgreen;
+			position: static;
+			left: 3cm;
+			right: 4cm;
+
+		}
+		.two{
+			position: absolute;
+			top: 1cm;
+			background-color: pink;
+		}
+		.three{
+			position: relative;
+			left: 3cm;
+			right: 4cm;
+			background-color:red;
+		}
+		.four{
+			left: 3cm;
+			right: 4cm;
+			position: absolute;
+			background-color: violet;
+		}
+		.five{
+			position: sticky;
+			background-color: gray;
+		    top: 1cm;
+		}
+	</style>
+
+</head>
+<body>
+<p class="p">this is paragraph 1</p>
+<div class="one">html</div>
+
+
+<div class="two">
+<div class="three">Java this is child class</div>	
+</div>
+
+<div class="four">DBMS</div>
+<div class="five">c++</div>
+
+</body>
+</html>
